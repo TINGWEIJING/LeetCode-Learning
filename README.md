@@ -1,5 +1,6 @@
 # Leetcode Learning
 Tools: https://www.tldraw.com/
+https://textedit.tools/snakecase
 
 ## [Top Interview](https://leetcode.com/problem-list/top-interview-questions/)
 ### Hard
@@ -16,3 +17,9 @@ Tools: https://www.tldraw.com/
 - [1646. Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)
 - [1641. Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)
 
+
+## HackerRank
+### [SQL]()
+
+### Interview 
+https://www.hackerrank.com/interview/interview-preparation-kit
