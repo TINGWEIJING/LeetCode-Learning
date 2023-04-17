@@ -23,3 +23,34 @@ https://textedit.tools/snakecase
 
 ### Interview 
 https://www.hackerrank.com/interview/interview-preparation-kit
+
+## SQL Practice
+- https://www.mysqltutorial.org/mysql-sample-database.aspx
+### Docker Setup
+```bash
+# run docker
+docker run --name sql-learning \
+  -e MYSQL_ROOT_PASSWORD=12345 \
+  -p 3312:3306 \
+  -v mysqldata:/var/lib/mysql \
+  -d mysql:8.0-debian
+
+# dump data
+mysql \
+  --host=127.0.0.1 \
+  --port=3312 \
+  -u root \
+  -p12345 < data.sql
+
+# connect to MySQL
+mysql --host=127.0.0.1 \
+  --port=3312 \
+  -u root \
+  -p12345
+
+mysql --host=127.0.0.1 \
+  --port=3312 \
+  -D classicmodels \
+  -u root \
+  -p12345
+```
