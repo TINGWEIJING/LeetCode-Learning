@@ -3,6 +3,9 @@ Tools: https://www.tldraw.com/
 https://textedit.tools/snakecase
 
 ## [Top Interview](https://leetcode.com/problem-list/top-interview-questions/)
+### Medium
+- [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+
 ### Hard
 - [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/)
 
